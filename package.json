@@ -1,6 +1,6 @@
 {
   "name": "cortexai",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight TypeScript SDK for interacting with a multi-model OpenAI-compatible API, including Claude 3.5, LLaMA, and DeepSeek.",
   "main": "index.ts",
   "types": "index.ts",
