@@ -1,0 +1,14 @@
+{
+  "name": "cortexai",
+  "version": "0.1.0",
+  "description": "SDK to interact with a multi-model OpenAI-compatible API including Claude 3.5, LLaMA, and DeepSeek.",
+  "main": "index.ts",
+  "types": "index.ts",
+  "author": "Your Name",
+  "license": "MIT",
+  "keywords": ["openai", "sdk", "llm", "api", "chat", "ai", "typescript"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-org/cortexAI.git"
+  }
+}
