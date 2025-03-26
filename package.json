@@ -1,14 +1,14 @@
 {
   "name": "cortexai",
-  "version": "0.1.1",
+  "version": "0.1.8",
   "description": "A lightweight TypeScript SDK for interacting with a multi-model OpenAI-compatible API, including Claude 3.5, LLaMA, and DeepSeek.",
-  "main": "index.ts",
-  "types": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
   "exports": {
     ".": {
-      "import": "./index.ts",
-      "types": "./index.ts"
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "keywords": [
@@ -25,6 +25,13 @@
   ],
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "https://github.com/filippopalmieri98/cortexai"
+=======
+    "url": "https://github.com/filippopalmieri98/cortexai.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+>>>>>>> 5d8b856 (Initial commit)
   }
 }

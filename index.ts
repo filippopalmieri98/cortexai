@@ -14,7 +14,7 @@ export interface ChatRequest {
   apiUrl?: string;
 }
 
-export async function chatWithModel({
+const chatWithModel = async ({
   model,
   messages,
   temperature = 0.7,
@@ -23,7 +23,7 @@ export async function chatWithModel({
   top_k,
   repetition_penalty,
   apiUrl = "https://338b0cf3-5fc9-4584-8146-2a75cfaf3e9e-00-1qrp5tlx75ms1.spock.replit.dev/v1/chat/completions"
-}: ChatRequest): Promise<string> {
+}: ChatRequest): Promise<string> => {
   const body: any = {
     model,
     messages,
@@ -51,4 +51,10 @@ export async function chatWithModel({
 
   const data = await response.json();
   return data.choices[0].message.content;
+<<<<<<< HEAD
 }
+=======
+};
+
+export default chatWithModel;
+>>>>>>> 5d8b856 (Initial commit)
